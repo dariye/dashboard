@@ -45,7 +45,7 @@ end
 
 
 # Dashboard-specific gems
-gem 'closeio', '~> 2.0'
+gem 'closeio', '~> 2.0', :path => '~/workspace/closeio'
 
 gem 'gecko'
 

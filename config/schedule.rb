@@ -18,3 +18,8 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
+
+# Update Boards Every Hour
+every :hour do 
+  bundle exec rake geckoboard:update
+end

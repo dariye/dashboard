@@ -1,3 +1,12 @@
+PATH
+  remote: ~/workspace/closeio
+  specs:
+    closeio (2.0.5)
+      faraday
+      faraday_middleware
+      hashie
+      json
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,11 +55,6 @@ GEM
       debugger-linecache (~> 1.2)
       slop (~> 3.6)
     chronic (0.10.2)
-    closeio (2.0.5)
-      faraday
-      faraday_middleware
-      hashie
-      json
     coderay (1.1.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
@@ -194,7 +198,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  closeio (~> 2.0)
+  closeio (~> 2.0)!
   coffee-rails (~> 4.1.0)
   em-http-request
   eventmachine
