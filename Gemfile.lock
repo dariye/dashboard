@@ -1,5 +1,6 @@
-PATH
-  remote: ~/workspace/closeio
+GIT
+  remote: git://github.com/pauldd91/closeio.git
+  revision: 50f6841a0bd12fc616584c097c9fbf1112437e36
   specs:
     closeio (2.0.5)
       faraday
